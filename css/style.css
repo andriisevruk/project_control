@@ -12,3 +12,49 @@
     background-color: #01579b;
     z-index: 0;
   }
+
+/* 2 */
+
+  .avatar {
+    border-radius: 100%;
+    vertical-align: middle;
+  }
+  .ic {
+    vertical-align: middle;
+  }
+
+  .badge {
+    background-color: #5f37fe;
+    border-radius: 20%;
+
+  }
+  .active {
+    background-color: rgb(226, 226, 226);
+  }
+
+  .mmfemn li {
+    padding: 10px;
+  }
+
+  .search {
+    margin-top: 25px;
+  
+  }
+
+  .avfr {
+    padding-top: 25px;
+  }
+
+  .icfr {
+    vertical-align: middle;
+    padding-right: 5px;
+  }
+  .dani {
+    font-size: 15px;
+  }
+  .card {
+    box-shadow: 2px 2px 2px;
+  }
+
+
+
