@@ -21,6 +21,7 @@
   }
   .ic {
     vertical-align: middle;
+    padding-right: 5px;
   }
 
   .badge {
@@ -34,6 +35,10 @@
 
   .mmfemn li {
     padding: 10px;
+
+  }
+  .mmfemn li:hover {
+    background-color: rgb(226, 226, 226);
   }
 
   .search {
@@ -56,5 +61,10 @@
     box-shadow: 2px 2px 2px;
   }
 
+  /* 3 */
+
+.add {
+    padding-top: 20px;
+}
 
 
