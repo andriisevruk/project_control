@@ -3,65 +3,73 @@
 .enter {
     width: 100%;
 }
-
 .my-checkbox.filled-in:checked + span:not(.lever):after {
     top: 0;
     width: 20px;
     height: 20px;
-    border: 2px solid #01579b;
-    background-color: #01579b;
+    border: 2px solid #4350af;
+    background-color: #4350af;
     z-index: 0;
   }
+/* friends */
+.active {
+  background-color: #d7dcff;
+}
+.newmes {
+  background-color: #4350af;
+  color: aliceblue;
+  padding: 5px;
+  margin-left: 5px;
+  border-radius: 4px;
+}
+.avatar {
+  vertical-align: middle;
+}
+.avatarFriend {
+  padding: 20px;
+}
+.nameFriend {
+  font-weight: 700;
+}
+.middleic {
+  vertical-align: middle;
+  padding-right: 10px;
+}
+.middle {
+  vertical-align: middle;
+}
+.data {
+  color: gray;
+  font-size: 12px;
+  font-weight: 400;
+}
+.data .middleic {
+  font-size: 19px;
+}
+.search {
+  margin-top: 15px;
+}
+.menu ul li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 13px;
+}
+.menu ul li a {
+  color: #4350af;
+}
+.menu ul {
+  margin-top: 50px;
+}
+.menu ul li:hover {
+  background-color: #d7dcff;
+}
+ 
 
-/* 2 */
 
-  .avatar {
-    border-radius: 100%;
-    vertical-align: middle;
-  }
-  .ic {
-    vertical-align: middle;
-    padding-right: 5px;
-  }
 
-  .badge {
-    background-color: #5f37fe;
-    border-radius: 20%;
 
-  }
-  .active {
-    background-color: rgb(226, 226, 226);
-  }
 
-  .mmfemn li {
-    padding: 10px;
-
-  }
-  .mmfemn li:hover {
-    background-color: rgb(226, 226, 226);
-  }
-
-  .search {
-    margin-top: 25px;
-  
-  }
-
-  .avfr {
-    padding-top: 25px;
-  }
-
-  .icfr {
-    vertical-align: middle;
-    padding-right: 5px;
-  }
-  .dani {
-    font-size: 15px;
-  }
-  .card {
-    box-shadow: 2px 2px 2px;
-  }
-
-  /* 3 */
+  /* news */
 
 .add {
     padding-top: 20px;
