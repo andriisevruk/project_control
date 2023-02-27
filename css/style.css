@@ -68,5 +68,20 @@
 .add {
     padding-top: 20px;
 }
-
-
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+}
+.flex img {
+  width: 150px;
+  height: 200px;
+}
+.card-title {
+  background-color: rgb(0, 0, 0, 0.5);
+  margin-bottom: 10px;
+}
+.card-title p {
+  font-weight: 800;
+}
