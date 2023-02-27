@@ -50,7 +50,7 @@
   margin-top: 15px;
 }
 .menu ul li {
-  padding-top: 10px;
+  padding-top: 15px;
   padding-bottom: 10px;
   font-size: 13px;
 }
@@ -121,3 +121,16 @@
   background-color: rgba(0, 0, 0, 0.5);
   width: 100%;
 }
+/* messages */
+.bold {
+  font-weight: bold;
+}
+.openChat {
+  color: white;
+  background-color: #4350af;
+}
+.unread {
+  color: #4350af;
+  font-weight: bold;
+}
+
