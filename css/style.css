@@ -64,7 +64,6 @@
   background-color: #d7dcff;
 }
   /* news */
-
 .add {
     padding-top: 20px;
 }
@@ -84,4 +83,36 @@
 }
 .card-title p {
   font-weight: 800;
+}
+/* profile */
+.profile {
+  padding: 15px;
+}
+.profile a {
+  width: 100%;
+  margin-top: 50px;
+}
+.profFriends {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.profFriend {
+  padding: 2px;
+}
+.profFriend p {
+  font-size: 10px;
+  text-align: center;
+}
+.profName {
+  font-weight: 100;
+}
+.profData {
+  color: #4350af;
+  font-size: 12px;
+}
+.profDataLarge {
+  color: #4350af;
+  font-size: 20px;
+  text-align: center;
 }
