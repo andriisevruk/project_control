@@ -77,7 +77,7 @@
   width: 150px;
   height: 200px;
 }
-.card-title {
+.card-title1 {
   background-color: rgb(0, 0, 0, 0.5);
   margin-bottom: 10px;
 }
@@ -115,4 +115,9 @@
   color: #4350af;
   font-size: 20px;
   text-align: center;
+}
+/* events */
+.card-title2 {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
 }
